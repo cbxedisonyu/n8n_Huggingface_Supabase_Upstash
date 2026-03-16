@@ -4,7 +4,8 @@ Language / 語言: [English](README.md) | [中文](README-zh.md)
 ```markdown
 # n8n 免費雲端部署指南 (Hugging Face + Supabase + Upstash)
 
-本專案旨在建立一個**完全免費**且強大的 n8n 自動化工作流環境。透過結合 Hugging Face 的運算資源、Supabase 的持久化資料庫以及 Upstash 的 Redis 快取，實現高性能且不間斷的雲端自動化服務。
+本專案旨在建立一個**完全免費**且強大的 n8n 自動化工作流環境。
+e透過結合 Hugging Face 的運算資源、Supabase 的持久化資料庫以及 Upstash 的 Redis 快取，實現高性能且不間斷的雲端自動化服務。
 
 ## 🌟 方案優勢
 
