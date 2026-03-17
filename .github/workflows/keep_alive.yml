@@ -1,9 +1,9 @@
 name: Supabase Keep Alive
 
-on:
-  schedule:
-    - cron: '0 */8 * * *'  # 修改這裡：每 8 小時執行一次
-  workflow_dispatch:
+# on:
+#  schedule:
+#    - cron: '0 */8 * * *'  # 修改這裡：每 8 小時執行一次
+#  workflow_dispatch:
 
 jobs:
   ping_supabase:
