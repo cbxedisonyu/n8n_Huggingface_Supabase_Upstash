@@ -1,10 +1,11 @@
 name: Supabase Keep Alive
 
-# on:
-#  schedule:
-#    - cron: '0 */8 * * *'  # 修改這裡：每 8 小時執行一次
-#  workflow_dispatch:
-
+on:
+  schedule:
+    # 手動取消以下註解並設定時間（例如 '0 */8 * * *'）
+    # - cron: '<YOUR_CRON_SCHEDULE>'
+  workflow_dispatch: # 保留手動按鈕，方便測試
+  
 jobs:
   ping_supabase:
     runs-on: ubuntu-latest
